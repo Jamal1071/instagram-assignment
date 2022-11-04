@@ -1,0 +1,71 @@
+[{
+    "id": 1,
+    "storyImages": ["story_1.jpg","story_2.jpg","story_3.jpg"],
+    "userImg": "user_1.jpg",
+    "userName": "mohd_Askar",
+    "duration": "7h"
+},
+{
+    "id": 2,
+    "storyImages": ["story_4.jpg","story_5.jpg","story_6.jpg","story_7.jpg"],
+    "userImg": "user_2.jpg",
+    "userName": "yoo__bros",
+    "duration": "6h"
+},
+{
+    "id": 3,
+    "storyImages": ["story_8.jpg","story_9.jpg", "story_12.jpg"],
+    "userImg": "user_3.jpg",
+    "userName": "Shafnaan",
+    "duration": "4h"
+},
+{
+    "id": 4,
+    "storyImages": ["story_13.jpg","story_14.jpg", "story_15.jpg","story_6.jpg"],
+    "userImg": "user_4.jpg",
+    "userName": "risxth_",
+    "duration": "5h"
+},
+{
+    "id": 5,
+    "storyImages": ["story_17.jpg", "story_18.jpg","story_7.jpg"],
+    "userImg": "user_5.jpg",
+    "userName": "hopetrader",
+    "duration": "8h"
+},
+{
+    "id": 6,
+    "storyImages": ["story_4.jpg","story_5.jpg","story_6.jpg","story_7.jpg"],
+    "userImg": "user_6.jpg",
+    "userName": "casemiro",
+    "duration": "14h"
+},
+{
+    "id": 7,
+    "storyImages": ["story_13.jpg","story_14.jpg", "story_15.jpg","story_3.jpg"],
+    "userImg": "user_7.jpg",
+    "userName": "emanboost",
+    "duration": "8h"
+},
+{
+    "id": 8,
+    "storyImages": ["story_8.jpg","story_9.jpg", "story_12.jpg"],
+    "userImg": "user_8.jpg",
+    "userName": "goal",
+    "duration": "10h"
+},
+{
+    "id": 9,
+    "storyImages": ["story_4.jpg","story_5.jpg","story_6.jpg","story_7.jpg"],
+    "userImg": "user_9.jpg",
+    "userName": "chennaiipl",
+    "duration": "1h"
+},
+{
+    "id": 10,
+    "storyImages": ["story_1.jpg","story_2.jpg","story_3.jpg"],
+    "userImg": "user_10.jpg",
+    "userName": "cbum",
+    "duration": "5h"
+}
+]

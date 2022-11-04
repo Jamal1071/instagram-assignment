@@ -1,0 +1,39 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.story-comments {
+    position: absolute; 
+    bottom: 20px;
+    Width: 96%;
+    margin: 0 2%;
+    text-align: left;
+    z-index: 2;
+    display: flex;
+}
+.story-comments input {
+    background: none;
+    border: 1px solid #eeecea;
+    padding: 12px;
+    width:100%;
+    margin-left: 10px;
+    border-radius: 28px;
+    box-sizing: border-box;
+}
+.footer-icons {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cell-1 {
+    flex: 1;
+}
+.story-comments i {
+    font-size: 20px;
+    margin-left: 15px;
+}
+::placeholder {
+    color: #d3dad7;
+}

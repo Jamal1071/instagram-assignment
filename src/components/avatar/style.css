@@ -1,0 +1,19 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.story-slider-avatar {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.inactive-story-avatar {
+    position: absolute;
+    margin: auto;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

@@ -1,0 +1,63 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.cover {
+    position: relative;
+    display: inline-block;
+}
+.story-container {
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    width: 470px;
+    height: 119px;
+    box-sizing: border-box;
+    margin: 16px;
+    padding: 16px 0;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+   -webkit-overflow-scrolling: touch;
+}
+.user-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    white-space: nowrap;
+}
+.user-list li {
+    display: inline-block;
+    cursor: pointer;
+}
+.user-list li img {
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-list li .title {
+    color: #262626;
+    display: block;
+    font-size: 12px;
+    padding: 0 2px;
+}
+.story-left {
+    position: absolute;
+    left: 35px;
+    font-size: 25px;
+    color: #ffffff;
+    top: 40%;
+    z-index: 1;
+    cursor: pointer;
+  }
+.story-right {
+    position: absolute;
+    right: 40px;
+    font-size: 25px;
+    color: #ffffff;
+    top: 40%;
+    cursor: pointer;
+    z-index: 1;
+}

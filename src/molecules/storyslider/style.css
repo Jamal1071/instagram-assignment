@@ -1,0 +1,37 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.story-slider-box {
+   display: inline-block;
+   position: relative;
+   cursor: pointer;
+   height: 800px;
+   
+}
+.inactive-story-box {
+    width: 124px;
+    height: 221px;
+}
+.h-image {
+    border-radius: 6px;
+}
+.story-list-left {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    color: #fff;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.story-list-right {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.story-slider-profile {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+.cell-1 {
+    flex: 1;
+}
+.username {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.icons {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.a-icon {
+    margin: 0 10px;
+}

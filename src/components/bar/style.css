@@ -1,0 +1,38 @@
+/*
+*
+* style.css
+* @author - Jamal
+* @date -  04 november 2022
+*/
+.story-slider-bar-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 98%;
+    top: 10px;
+    margin: 0 1%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.story-slider-bar { 
+    flex: 1;
+    background-color: #6c6c6d;
+    height: 3px;
+    margin: 0 5px;
+    border-radius: 2px;
+}
+.bar-line {
+    width: 100%;
+    height: 3px;
+    background-color: #fff; 
+    animation-name: animate-bar;
+    animation-duration: 5s;
+} 
+@keyframes animate-bar {
+    0%   {
+        width: 0px;
+    }
+    100%  {
+        width: 100%;
+    }
+}
