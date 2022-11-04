@@ -38,7 +38,12 @@ function Story(props) {
                 <ul className='story-list'>
                     {list.map((item, index, elements) => (
                         <li key={index}>
-                            <StorySlider leftScrollStory={() => changeUserStory(index !== 0 ? elements[index - 1].id : 0)} rightScrollStory={() => changeUserStory(index < elements.length - 1 ? elements[index + 1].id : 0)} openStory={() => changeUserStory(item.id)} onStoryUpdate={() => changeUserStory(index < elements.length - 1 ? elements[index + 1].id : 0)} currentUserId={currentUserId} id={item.id} storyImages={item.storyImages} userImg={item.userImg} duration={item.duration} userName={item.userName} />
+                            <StorySlider
+                             openStory={() => changeUserStory(item.id)} 
+                             onStoryUpdate={() => changeUserStory(index < elements.length - 1 ? elements[index + 1].id : 0)} 
+                             currentUserId={currentUserId} id={item.id}
+                            storyImages={item.storyImages}
+                            userImg={item.userImg} duration={item.duration} userName={item.userName} />
                         </li>
                     ))}
                 </ul>
