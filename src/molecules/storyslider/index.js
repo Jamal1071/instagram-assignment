@@ -44,11 +44,13 @@ function StorySlider(props) {
 
     return (
         <div className={["story-slider-box", props.id === props.currentUserId ? "" : "inactive-story-box only-desktop"].join(" ")}>
+            {isActive === true &&<i class="fa-solid fa-circle-chevron-left story-list-left only-desktop" ></i>}
             {isActive === true && <Bar storyImages={props.storyImages} id={props.id} />}
             {isActive === true && <ProfileHeader userImg={props.userImg} userName={props.userName} duration={props.duration} />}
             {isActive === true && <ProfileFooter userName={props.userName} />}
             {isActive === false && <Avatar imgName={props.userImg} width={56} className="inactive-story-avatar" />}
             <img className='h-image' src={require(`../../asset/story/${props.storyImages[currentImgIndex]}`)} height="100%" />
+            {isActive === true &&<i class="fa-solid fa-circle-chevron-right story-list-right only-desktop" ></i>}
         </div>
     )
 }
